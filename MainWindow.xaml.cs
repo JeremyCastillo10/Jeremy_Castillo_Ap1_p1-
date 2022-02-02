@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Jeremy_Castillo_Ap1_p1_.UI.Registros;
+
 
 namespace Jeremy_Castillo_Ap1_p1_
 {
@@ -23,6 +25,18 @@ namespace Jeremy_Castillo_Ap1_p1_
         public MainWindow()
         {
             InitializeComponent();
+        }
+        private void RegistroMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            var reg = new reg();
+            reg.Show();
+
+        }
+
+
+        private void ConsultaMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
