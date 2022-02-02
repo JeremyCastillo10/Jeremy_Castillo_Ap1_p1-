@@ -10,11 +10,11 @@
         <StackPanel> 
             <Menu> 
                 <MenuItem Header="Registros" >
-                    <MenuItem Header="Registros"  Click ="RegistroLibrosMenuItem_Click" /> <!--  -->
+                    <MenuItem Header="Registros"  Click ="RegistroMenuItem_Click" /> 
                 </MenuItem>
 
                 <MenuItem Header="Consultas" >
-                    <MenuItem Header="Consultas"  Click ="ConsultaLibrosMenuItem_Click" /> 
+                    <MenuItem Header="Consultas"  Click ="ConsultaMenuItem_Click" /> 
                 </MenuItem>
             </Menu>
 
