@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Jeremy_Castillo_Ap1_p1_.UI.Registros;
+using Jeremy_Castillo_Ap1_p1_.UI.Consultas;
 
 
 namespace Jeremy_Castillo_Ap1_p1_
@@ -36,6 +37,8 @@ namespace Jeremy_Castillo_Ap1_p1_
 
         private void ConsultaMenuItem_Click(object sender, RoutedEventArgs e)
         {
+            var consult = new consult();
+            consult.Show();
 
         }
     }
