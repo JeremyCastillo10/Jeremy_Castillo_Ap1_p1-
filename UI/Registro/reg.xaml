@@ -5,17 +5,41 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Jeremy_Castillo_Ap1_p1_.UI.Registros"
         mc:Ignorable="d"
-        Title="" Height="300" Width="300">
+        Title="Registro de Productos" Height="370" Width="300">
     <Grid>
 
         <StackPanel Orientation="Vertical" Margin="10"> 
            
             <StackPanel Orientation="Vertical">
-                <Label Content="Id:"/>
+                <Label Content="ProductoId:"/>
 
                 <StackPanel Orientation="Horizontal">
-                    <TextBox Text="" Width="100" />
-                    <Button Content="🔎 Buscar" Click="BuscarButton_Click" /> 
+                    <TextBox x:Name="ProductoIdTextBox" Text="{Binding ProductoId}" Width="100" />
+                    <Button Content="🔎" Click="BuscarButton_Click" /> 
+                </StackPanel>
+
+                <Label Content="Descripcion:"/>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBox x:Name="DescripcionTextBox" Text="{Binding Descripcion}" Width="190" />
+                </StackPanel>
+
+                <Label Content="Existencia:"/>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBox x:Name="ExistenciaTextBox" Text="{Binding Existencia}" Width="100" />
+                </StackPanel>
+
+                <Label Content="Costo:"/>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBox x:Name="CostoTextBox" Text="{Binding Costo}" Width="100" />
+                </StackPanel>
+
+                <Label Content="Valor Inventario:"/>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBox x:Name="ValorInventarioTextBox" Text="" Width="100" />
                 </StackPanel>
             </StackPanel>
 
