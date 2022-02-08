@@ -27,8 +27,8 @@ namespace Jeremy_Castillo_Ap1_p1_.Migrations
                     b.Property<string>("Descripcion")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Existencia")
-                        .HasColumnType("TEXT");
+                    b.Property<int>("Existencia")
+                        .HasColumnType("INTEGER");
 
                     b.Property<float>("ValorInventario")
                         .HasColumnType("REAL");

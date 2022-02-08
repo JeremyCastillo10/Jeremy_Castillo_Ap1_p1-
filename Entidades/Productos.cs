@@ -7,7 +7,7 @@ namespace Jeremy_Castillo_Ap1_p1_.Entidades
         [Key]
         public int ProductoId { get; set; }
         public string ?Descripcion  { get; set; }
-        public string ?Existencia { get; set; }
+        public int Existencia { get; set; }
         public float Costo { get; set; }
         public float ValorInventario { get; set; }
         
