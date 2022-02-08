@@ -35,6 +35,7 @@ namespace Jeremy_Castillo_Ap1_p1_.UI.Consultas
                         break;
                 }
             }
+            
 
             DataGrid.ItemsSource = null;
             DataGrid.ItemsSource = lista;

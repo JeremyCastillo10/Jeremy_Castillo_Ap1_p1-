@@ -59,8 +59,6 @@ namespace Jeremy_Castillo_Ap1_p1_.UI.Registros
         private void NuevoButton_Click(object sender, RoutedEventArgs e)
         {
             Limpiar();
-
-
         }
 
 
@@ -78,6 +76,7 @@ namespace Jeremy_Castillo_Ap1_p1_.UI.Registros
                 bool pasa = false;
                 if(!Validar())
                 return;
+                productos.ValorInventario =  productos.Costo * productos.Existencia;
 
                 pasa = ProductosBLL.Guardar(productos);
 
