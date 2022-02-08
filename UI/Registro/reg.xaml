@@ -39,7 +39,7 @@
                 <Label Content="Valor Inventario:"/>
 
                 <StackPanel Orientation="Horizontal">
-                    <TextBox x:Name="ValorInventarioTextBox" IsReadOnly ="True" Text="{Binding ValorInventario}" Width="100" />
+                    <TextBox x:Name="ValorInventarioTextBox" IsReadOnly ="True" Text="{Binding ValorInventario}" Width="100" Background="#FF0DB3AF" />
                 </StackPanel>
             </StackPanel>
 
