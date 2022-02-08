@@ -39,11 +39,10 @@
                 <Label Content="Valor Inventario:"/>
 
                 <StackPanel Orientation="Horizontal">
-                    <TextBox x:Name="ValorInventarioTextBox" Text="" Width="100" />
+                    <TextBox x:Name="ValorInventarioTextBox" Text="{Binding Costo * Existencia}" Width="100" />
                 </StackPanel>
             </StackPanel>
 
-            <!-- BARRA DE BOTONES -->
             <StackPanel 
                         Margin="0,16,0,0"                      
                         Orientation="Horizontal" 

@@ -12,26 +12,26 @@
             
             <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
 
-                <!-- COMBOBOX -->
                 <Label Content="Filtro:"/>
                 <ComboBox x:Name="FiltroComboBox" Width="100">
                     <ComboBox.Items> 
-                        <ComboBoxItem Content="..." />
-                        <ComboBoxItem Content="..." />
+                        <ComboBoxItem Content="ProductoId" />
+                        <ComboBoxItem Content="Descripcion" />
+                        <ComboBoxItem Content="Costo" />
                     </ComboBox.Items>
                 </ComboBox>
 
 
-                <!-- CRITERIO -->
+
                 <Label Content="Criterio:"/>
                 <TextBox x:Name="CriterioTextBox"   Width="100" />
 
-                <!-- BUSCAR -->
+
                 <Button Content="🔎 Buscar" Click="BuscarButton_Click" />
 
             </StackPanel>
 
-            <!-- GRID -->
+
             <DataGrid x:Name="DataGrid"  Height="250" Width="380"> 
               
             </DataGrid>
