@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Jeremy_Castillo_Ap1_p1_.UI.Registros"
         mc:Ignorable="d"
-        Title="Registro de Productos" Height="370" Width="300">
+        Title="Registro de Productos" Height="390" Width="330">
     <Grid>
 
         <StackPanel Orientation="Vertical" Margin="10"> 

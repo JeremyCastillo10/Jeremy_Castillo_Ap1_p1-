@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Jeremy_Castillo_Ap1_p1_.UI.Consultas"
         mc:Ignorable="d"
-        Title="Consulta" Height="300" Width="400">
+        Title="Consulta" Height="300" Width="510">
     <Grid>
 
         <StackPanel Orientation="Vertical" Margin="10"> 
@@ -17,7 +17,6 @@
                     <ComboBox.Items> 
                         <ComboBoxItem Content="ProductoId" />
                         <ComboBoxItem Content="Descripcion" />
-                        <ComboBoxItem Content="Costo" />
                     </ComboBox.Items>
                 </ComboBox>
 
@@ -32,7 +31,7 @@
             </StackPanel>
 
 
-            <DataGrid x:Name="DataGrid"  Height="250" Width="380"> 
+            <DataGrid x:Name="DataGrid"  Height="300" Width="470"> 
               
             </DataGrid>
 
